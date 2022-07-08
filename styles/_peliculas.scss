@@ -1,0 +1,172 @@
+.peliculas-body {
+    background-color: $color-dark;
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    header {
+        .navegador {
+            position: static;
+            background: none;
+            background-color: $color-dark;
+        }
+    }
+    main {
+        .seccion-peliculas {
+            width: 80%;
+            margin: auto;
+            color: white;
+            
+            h1 {
+                margin: map-get($titulos, margen);
+                text-align: map-get($titulos, centro);
+                font-size: map-get($titulos, tamanio-h1);
+                color: map-get($titulos, color);
+            }
+
+            .peliculas-container {
+                display: flex;
+                flex-wrap: wrap;
+                .filtrar-peliculas {
+                    width: 25%;
+                    margin-top: 40px;
+                    box-sizing: border-box;
+                    border-right: 1px solid $color-dark-grey;
+                    p:first-child {
+                        font-weight: bold;
+                    }
+                    .filtro {
+                        width: 80%;
+                        border-top: 1px solid $color-dark-grey;
+                        padding: 20px 0 20px 20px;
+                        margin: 0;
+                        cursor: pointer;
+                    }
+                    .filtro:nth-child(2) {
+                        border-top: none;
+                    }
+                    .filtro:hover {
+                        color: $primary-color;
+                    }
+                    .filtrar-por {
+                        display: none;
+                        ul {
+                            margin: 0 0 1em 0;
+                            li {
+                                list-style: none;
+                                font-size: 14px;
+                                padding: 5px 30px 5px 0;
+                                cursor: pointer;
+                            }
+                            li:hover {
+                                color: $primary-color;
+                            }
+                        }
+                    }
+                    .display-filtro {
+                        display: block;
+                    }
+                }
+                .peliculas {
+                    width: 75%;
+                    height: 600px;
+                    overflow: auto;
+                    display: grid;
+                    grid-template-columns: repeat(3, 1fr);
+                    grid-template-rows: auto;
+                    gap: 50px 15px;
+                    margin: 40px 0;
+                    padding: 0 30px;
+                    box-sizing: border-box;
+                    .pelicula {
+                        div {
+                            position: relative;
+                            @extend %centrar;
+                            flex-direction: column;
+                            img{
+                                width: 100%;
+                                object-fit: cover;
+                                cursor: pointer;
+                            }
+                            .btns-pelicula {
+                                position: absolute;
+                                background-color: #64727c73;
+                                width: 100%;
+                                height: 100%;
+                                top: center;
+                                left: center;
+                                opacity: 0;
+                                transition: all 0.2s;
+                                button {
+                                    @extend %card-button;
+                                    margin-top: 10px;
+                                }
+                                button:hover {
+                                    background-color: rgb(190, 0, 0);
+                                }
+                            }
+                            .btns-pelicula:hover {
+                                opacity: 1;
+                            }
+                        }
+                        h3 {
+                            margin: 10px 0 5px 0;
+                            font-size: 18px;
+                        }
+                        p {
+                            margin: 0;
+                        }
+                    }
+                }
+                .peliculas::-webkit-scrollbar {
+                    width: 8px;
+                }
+                .peliculas::-webkit-scrollbar-thumb {
+                    background-color: $color-dark-grey;
+                    border-radius: 5px;
+                }
+            }
+
+            .detalles-container {
+                >div {
+                    margin-top: 60px;
+                    display: flex;
+                    flex-wrap: wrap;
+                    .detalles-poster {
+                        width: 50%;
+                        img {
+                            width: 400px;
+                            margin: auto;
+                            object-fit: contain;
+                        }
+                    }
+                    .detalles-info {
+                        width: 50%;
+                        h3 {
+                            font-size: 40px;
+                            margin-top: 0;
+                            margin-bottom: 20px;
+                        }
+                        h4 {
+                            font-size: 20px;
+                            width: 100%;
+                            margin: 30px 0 10px 0;
+                        }
+                        p {
+                            margin: 0;
+                            font-size: 15px;
+                        }
+                    }
+                    .detalles-button-comprar {
+                        width: 100%;
+                        text-align: center;
+                        margin: 30px 0 50px 0;
+                        button {
+                            @extend %boton-normal;
+                            margin: auto;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

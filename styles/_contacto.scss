@@ -1,0 +1,59 @@
+
+.contacto-body {
+    background-color: $color-dark;
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+    header {
+        .navegador {
+            position: static;
+            background: none;
+            background-color: $color-dark;
+        }
+    }
+
+    main {
+        color: white;
+        .contacto-titulo {
+            h2 {
+                width: 1110px;
+                margin: auto;
+                padding: 50px 0;
+            }
+        }
+        form {
+            width: 1000px;
+            margin: auto;
+            display: flex;
+            flex-wrap: wrap;
+            .input {
+                width: 50%;
+                margin: 10px 0;
+                label {
+                    display: block;
+                }
+                input {
+                    @extend %input;
+                }
+                select{
+                    @extend %input;
+                }
+                textarea{
+                    @extend %input;
+                    height: 150px;
+                }
+            }
+            .submit {
+                width: 100%;
+                text-align: center;
+                input {
+                    @extend %boton-normal;
+                    width: auto;
+                    margin: 10px 0 50px 0;
+                }
+            }
+        }
+    }
+}
+

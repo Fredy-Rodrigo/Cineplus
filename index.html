@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/styles.css">
+    <title>Cineplus - Home</title>
+    <script src="./scripts/index.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</head>
+<body class="index-body">
+    <header>
+        <div class="navegador">
+            <div class="logo">
+                <img src="./assets/icons/logo.png" alt="logo de Cineplus">
+                <span>CINEPLUS</span>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="./index.html">Inicio</a></li>
+                    <li><a href="./peliculas.html">Películas</a></li>
+                    <li><a href="./cines.html">Cines</a></li>
+                    <li><a href="./contacto.html">Contáctenos</a></li>
+                </ul>
+            </nav>
+            <div class="busqueda">
+                <img src="./assets/icons/search-icon.svg" alt="icono de busqueda">
+            </div>
+        </div>
+        <div class="banner">
+            <img src="./assets/images/banner.jpg" alt="">
+        </div>
+    </header>
+    <main>
+        <section class="filtrar">
+            <div class="filtrar-box">
+                <div class="filtrar-por por-genero">
+                    <p>Género <span>&#9660</span></p>
+                    <span id="span-genero">Peliculas por género</span>
+                    <select id="genero">
+                        <option>Peliculas por género</option>
+                        <option>Terror</option>
+                        <option>Accion</option>
+                        <option>Familiar</option>
+                        <option>Aventura</option>
+                    </select>
+                </div>
+                <div class="filtrar-por por-ciudad">
+                    <p>Ciudad <span>&#9660</span></p>
+                    <span id="span-ciudad">Peliculas por ciudad</span>
+                    <select id="ciudad">
+                        <option>Peliculas por ciudad</option>
+                        <option>Lima</option>
+                        <option>Arequipa</option>
+                        <option>Trujillo</option>
+                        <option>Piura</option>
+                    </select>
+                </div>
+                <div class="filtrar-por por-local">
+                    <p>Local <span>&#9660</span></p>
+                    <span id="span-local">Peliculas por local</span>
+                    <select id="local">
+                        <option>Peliculas en local</option>
+                        <option>Cineplus Alcazar</option>
+                        <option>Cineplus Caminos del Inca</option>
+                        <option>Cineplus Arequipa Mall Plaza</option>
+                        <option>Cineplus Arequipa Real Plaza</option>
+                        <option>Cineplus Trujillo Centro</option>
+                        <option>Cineplus Trujillo Real Plaza</option>
+                        <option>Cineplus Piura</option>
+                        <option>Cineplus Piura Real Plaza</option>
+                        <option>Cineplus Canto Grande</option>
+                        <option>Cineplus Centro</option>
+                    </select>
+                </div>
+                <div class="btn-filtrar">
+                    <button class="btn-disabled">Filtrar</button>
+                </div>
+            </div>
+        </section>
+        <section class="peliculas-filtradas">
+            <div id="lista-peliculas">
+
+            </div>
+        </section>
+        <section class="cartelera">
+            <h2>EN CARTELERA</h2>
+            <div class="cartelera-galeria">
+                <div class="card card-1">
+                    <div class="card-info">
+                        <p class="card-title">The Batman</p>
+                        <button class="detalles">Ver detalles</button>
+                        <a href="./peliculas-comprar.html"><button>Comprar</button></a>
+                    </div>
+                </div>
+                <div class="card card-2">
+                    <div class="card-info">
+                        <p class="card-title">The devil's child</p>
+                        <button class="detalles">Ver detalles</button>
+                        <a href="./peliculas-comprar.html"><button>Comprar</button></a>
+                    </div>
+                </div>
+                <div class="card card-3">
+                    <div class="card-info">
+                        <p class="card-title">Jujutsu Kaisen</p>
+                        <button class="detalles">Ver detalles</button>
+                        <a href="./peliculas-comprar.html"><button>Comprar</button></a>
+                    </div>
+                </div>
+                <div class="card card-4">
+                    <div class="card-info">
+                        <p class="card-title">Skyfire</p>
+                        <button class="detalles">Ver detalles</button>
+                        <a href="./peliculas-comprar.html"><button>Comprar</button></a>
+                    </div>
+                </div>
+                <div class="card card-5">
+                    <div class="card-info">
+                        <p class="card-title">The Cave</p>
+                        <button class="detalles">Ver detalles</button>
+                        <a href="./peliculas-comprar.html"><button>Comprar</button></a>
+                    </div>
+                </div>
+                <div class="card card-6">
+                    <div class="card-info">
+                        <p class="card-title">Uncharted</p>
+                        <button class="detalles">Ver detalles</button>
+                        <a href="./peliculas-comprar.html"><button>Comprar</button></a>
+                    </div>
+                </div>
+                <div class="card card-7">
+                    <div class="card-info">
+                        <p class="card-title">Ambulance</p>
+                        <button class="detalles">Ver detalles</button>
+                        <a href="./peliculas-comprar.html"><button>Comprar</button></a>
+                    </div>
+                </div>
+                <div class="card card-8">
+                    <div class="card-info">
+                        <p class="card-title">Riders of Justice</p>
+                        <button class="detalles">Ver detalles</button>
+                        <a href="./peliculas-comprar.html"><button>Comprar</button></a>
+                    </div>
+                </div>
+                <div class="card card-9">
+                    <div class="card-info">
+                        <p class="card-title">Sing 2</p>
+                        <button class="detalles">Ver detalles</button>
+                        <a href="./peliculas-comprar.html"><button>Comprar</button></a>
+                    </div>
+                </div>
+                <div class="card ver-mas">Ver más películas</div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>Diseñado y desarrollado por Fredy Rodrigo</p>
+    </footer>
+     
+</body>
+</html>

@@ -1,0 +1,102 @@
+[
+    {
+        "nombre":"El Exorcismo",
+        "genero":"Terror",
+        "estreno":false,
+        "cartelera":true,
+        "precio":15,
+        "local":"Cineplus Alcazar",
+        "ciudad":"Lima",
+        "poster":"../assets/images/peliculas-elexorcismo.jpg"
+    },
+    {
+        "nombre":"El Peso del Talento",
+        "genero":"Accion",
+        "estreno":false,
+        "cartelera":true,
+        "precio":15,
+        "local":"Cineplus Caminos del Inca",
+        "ciudad":"Lima",
+        "poster":"../assets/images/peliculas-elpesodeltalento.jpg"
+    },
+    {
+        "nombre":"Doctor Strange en el Multiverso de la Locura",
+        "genero":"Accion",
+        "estreno":false,
+        "cartelera":true,
+        "precio":15,
+        "local":"Cineplus Arequipa Mall Plaza",
+        "ciudad":"Arequipa",
+        "poster":"../assets/images/peliculas-drstrange.webp"
+    },
+    {
+        "nombre":"El Gran Sismo",
+        "genero":"Accion",
+        "estreno":false,
+        "cartelera":true,
+        "precio":15,
+        "local":"Cineplus Arequipa Real Plaza",
+        "ciudad":"Arequipa",
+        "poster":"../assets/images/peliculas-elgransismo.jpg"
+    },
+    {
+        "nombre":"Sonic 2: La Pelicula",
+        "genero":"Familiar",
+        "estreno":false,
+        "cartelera":true,
+        "precio":15,
+        "local":"Cineplus Trujillo Centro",
+        "ciudad":"Trujillo",
+        "poster":"../assets/images/peliculas-sonic2.webp"
+    },
+    {
+        "nombre":"El Pequeño Ninja",
+        "genero":"Familiar",
+        "estreno":false,
+        "cartelera":true,
+        "precio":15,
+        "local":"Cineplus Trujillo Real Plaza",
+        "ciudad":"Trujillo",
+        "poster":"../assets/images/peliculas-elpequenoninja.jpg"
+    },
+    {
+        "nombre":"DOG. Un Viaje Salvaje",
+        "genero":"Familiar",
+        "estreno":false,
+        "cartelera":true,
+        "precio":15,
+        "local":"Cineplus Piura",
+        "ciudad":"Piura",
+        "poster":"../assets/images/peliculas-dog.jpeg"
+    },
+    {
+        "nombre":"Animales Fantásticos: Los Secretos de Dumbledore",
+        "genero":"Aventura",
+        "estreno":false,
+        "cartelera":true,
+        "precio":15,
+        "local":"Cineplus Piura Real Plaza",
+        "ciudad":"Piura",
+        "poster":"../assets/images/peliculas-animalesfantasticos.jpg"
+    },
+    {
+        "nombre":"El Hombre Del Norte",
+        "genero":"Aventura",
+        "estreno":false,
+        "cartelera":true,
+        "precio":15,
+        "local":"Cineplus Canto Grande",
+        "ciudad":"Lima",
+        "poster":"../assets/images/peliculas-northman.jpg"
+    },
+    {
+        "nombre":"La Ciudad Perdida",
+        "genero":"Aventura",
+        "estreno":false,
+        "cartelera":true,
+        "precio":15,
+        "local":"Cineplus Centro",
+        "ciudad":"Lima",
+        "poster":"../assets/images/peliculas-ciudadperdida.jpg"
+    }
+]

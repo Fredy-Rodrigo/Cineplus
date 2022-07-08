@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cineplus - Peliculas</title>
+    <link rel="stylesheet" href="./styles/styles.css">
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</head>
+<body class="peliculas-body">
+    <header>
+        <div class="navegador">
+            <div class="logo">
+                <img src="./assets/icons/logo.png" alt="logo de Cineplus">
+                <span>CINEPLUS</span>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="./index.html">Inicio</a></li>
+                    <li><a href="./">Películas</a></li>
+                    <li><a href="./cines.html">Cines</a></li>
+                    <li><a href="./contacto.html">Contáctenos</a></li>
+                </ul>
+            </nav>
+            <div class="busqueda">
+                <img src="./assets/icons/search-icon.svg" alt="icono de busqueda">
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="seccion-peliculas">
+            <h1>PELICULAS</h1>
+            <div class="seccion-elegir-horario">
+                <div class="descripcion">
+                    <img class="info" src="">
+                    <h4>Descripción</h4>
+                    <div class="informacion">
+                        <div class="info-tipo">
+                            <h5>Género</h5>
+                            <p class="info"></p>
+                        </div>
+                        <div class="info-tipo">
+                            <h5>Duración</h5>
+                            <p class="info"></p>
+                        </div>
+                        <div class="info-tipo">
+                            <h5>Pais</h5>
+                            <p class="info"></p>
+                        </div>
+                        <div class="info-tipo">
+                            <h5>Clasificación</h5>
+                            <p class="info"></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="locales-direcciones-horarios">
+                    <h2 class="info">TITULO DE LA PELICULA</h2>
+                    <p>Seleccione el horario:</p>
+                    <div class="local-horario-container">
+                        <!-- generado por js -->
+                    </div>
+                </div>
+            </div>
+            <div class="seccion-venta-tickets">
+                <div class="opciones">
+                    <div class="linea"></div>
+                    <div class="opcion tickets">
+                        <div id="icono-ticket">
+                            <img src="./assets/icons/icon-ticket.svg">
+                        </div>
+                        <p>Tickets</p>
+                    </div>
+                    <div class="opcion butacas">
+                        <div id="icono-butaca">
+                            <img src="./assets/icons/icon-butaca.svg">
+                        </div>
+                        <p>Butacas</p>
+                    </div>
+                    <div class="opcion pagos">
+                        <div id="icono-pago">
+                            <img src="./assets/icons/icon-pago.svg">
+                        </div>
+                        <p>Pago</p>
+                    </div>
+                </div>
+                <div class="ventana-tarifas">
+                    <span>Película</span>
+                    <h2 id="titulo-pelicula"></h2>
+                    <p>Tarifas disponibles:</p>
+                    <div class="tarifa">
+                        <span class="tipo">Tipo de entrada</span>
+                        <span class="precio">Precio</span>
+                        <span class="cantidad">Cantidad</span>
+                    </div>
+                    <div class="tarifa">
+                        <span class="tipo">Adulto</span>
+                        <span class="precio">S/6.00</span>
+                        <span class="cantidad">
+                            <button class="menos" onclick="sumarRestar1(this)"> - </button>
+                            <input type="number" min="0" max="10" step="1" value="0" class="my-input" readonly="readonly">
+                            <button class="mas" onclick="sumarRestar1(this)"> + </button>
+                        </span>
+                    </div>
+                    <div class="tarifa">
+                        <span class="tipo">Infantil</span>
+                        <span class="precio">S/6.00</span>
+                        <span class="cantidad">
+                            <button class="menos" onclick="sumarRestar2(this)"> - </button>
+                            <input type="number" min="0" max="10" step="1" value="0" class="my-input" readonly="readonly">
+                            <button class="mas" onclick="sumarRestar2(this)"> + </button>
+                        </span>
+                    </div>
+                    <div class="tarifa">
+                        <span class="tipo">Adulto mayor</span>
+                        <span class="precio">S/6.00</span>
+                        <span class="cantidad">
+                            <button class="menos" onclick="sumarRestar3(this)"> - </button>
+                            <input type="number" min="0" max="10" step="1" value="0" class="my-input" readonly="readonly">
+                            <button class="mas" onclick="sumarRestar3(this)"> + </button>
+                        </span>
+                    </div>
+                </div>
+                <div class="ventana-butacas">
+                    <span>Película</span>
+                    <h2 id="titulo-pelicula-butacas">TITULO DE LA PELICULA</h2>
+                    <p>Selecciona tus butacas:</p>
+                    <div class="sala">
+
+                    </div>
+                </div>
+                <div class="ventana-pago">
+                    <div class="pago-lightbox">
+                        <h4>Confirmacion de la compra</h4>
+                        <p>Confirme los datos ingresados para efectuar la compra</p>
+                        <div class="confirmacion-imagen">
+                            <img class="conf-imagen" src="">
+                        </div>
+                        <div class="confirmacion-datos">
+                            <h2 class="conf-titulo"></h2>
+                            <p class="conf-local"></p>
+                            <p class="conf-direccion"></p>
+                            <span>Hora</span>
+                            <span class="conf-hora"></span>
+                            <p class="conf-entradas-text">Cantidad y tipo de entradas</p>
+                            <p class="conf-entradas"></p>
+                            <p class="conf-butacas-text">Butacas seleccionadas</p>
+                            <p class="conf-butacas"></p>
+                            <p class="conf-precio-texto">Total</p>
+                            <p class="conf-precio"></p>
+                            <button id="boton-confirmar">Confirmar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="seccion-detalles-compra">
+                <div class="detalles-compra">
+                    <p>Detallles de la compra</p>
+                    <img class="detalles-imagen" src="">
+                    <p class="detalles-local"></p>
+                    <p class="detalles-direccion"></p>
+                    <p>Hora <span class="detalles-hora"></span></p>
+                </div>
+                <div class="detalles-cantidad">
+                    <p>Cantidad y tipo de entradas</p>
+                    <p id="adulto"></p>
+                    <p id="infantil"></p>
+                    <p id="adulto-mayor"></p>
+                    <p id="cant-tickets"></p>
+                </div>
+                <div class="detalles-butacas">
+                    <p>Butacas seleccionadas</p>
+                </div>
+                <div class="detalles-total">
+                    <!-- generado por js -->
+                </div>
+                <div class="boton-continuar">
+                    <button id="continuar">Continuar</button>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>Diseñado y desarrollado por Fredy Rodrigo</p>
+    </footer>
+
+    <script src="./scripts/peliculas-comprar.js"></script>
+</body>
+</html>

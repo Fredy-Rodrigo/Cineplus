@@ -1,0 +1,172 @@
+[
+    {
+        "nombre":"El Buen Patron",
+        "name":"The Good Boss",
+        "ciudad":["Lima"],
+        "cine":["Cineplus Caminos del Inca", "Cineplus Canto Grande", "Cineplus Guardia Civil"],
+        "genero":"Comedia",
+        "estreno":false,
+        "cartelera":true,
+        "poster":"../assets/images/film-elbuenpatron.jpg"
+    },
+    {
+        "nombre":"Minions: Nace un Villano",
+        "name":"The Rise of Gru",
+        "ciudad":["Lima","Arequipa","Chiclayo","Cuzco","Piura","Trujillo"],
+        "cine":["Cineplus Caminos del Inca", "Cineplus Canto Grande","Cineplus Chiclayo Mall Aventura","Cineplus Chiclayo Real Plaza", "Cineplus Arequipa Mall Plaza", "Cineplus Arequipa Paseo Central","Cineplus Cuzco","Cineplus Piura","Cineplus Piura Real Plaza","Cineplus Trujillo Centro","Cineplus Trujillo Real Plaza"],
+        "genero":"Animacion",
+        "estreno":false,
+        "cartelera":true,
+        "poster":"../assets/images/film-minionsnaceunvillano.jpg"
+    },
+    {
+        "nombre":"Asesino sin Memoria",
+        "name":"Memory",
+        "ciudad":["Lima","Chiclayo","Trujillo"],
+        "cine":["Cineplus Canto Grande", "Cineplus Guardia Civil","Cineplus Chiclayo Mall Aventura","Cineplus Chiclayo Real Plaza","Cineplus Trujillo Centro","Cineplus Trujillo Real Plaza"],
+        "genero":"Thriller",
+        "estreno":false,
+        "cartelera":true,
+        "poster":"../assets/images/film-asesinosinmemoria.jpg"
+    },
+    {
+        "nombre":"Desastre Inminente",
+        "name":"Déflagrations",
+        "ciudad":["Lima"],
+        "cine":["Cineplus Canto Grande"],
+        "genero":"Terror",
+        "estreno":false,
+        "cartelera":true,
+        "poster":"../assets/images/film-desastreinminente.jpg"
+    },
+    {
+        "nombre":"Doctor Strange en el Multiverso de la Locura",
+        "name":"Doctor Strange in the Multiverse of Madness",
+        "ciudad":["Lima","Arequipa","Chiclayo","Cuzco","Piura","Trujillo"],
+        "cine":["Cineplus Caminos del Inca", "Cineplus Canto Grande","Cineplus Chiclayo Mall Aventura","Cineplus Chiclayo Real Plaza", "Cineplus Arequipa Mall Plaza", "Cineplus Arequipa Paseo Central","Cineplus Cuzco","Cineplus Piura","Cineplus Piura Real Plaza","Cineplus Trujillo Centro","Cineplus Trujillo Real Plaza"],
+        "genero":"Accion",
+        "estreno":false,
+        "cartelera":true,
+        "poster":"../assets/images/film-drstrange.jpg"
+    },
+    {
+        "nombre":"Gemelo Siniestro",
+        "name":"The Twin",
+        "ciudad":["Lima","Arequipa","Chiclayo","Cuzco","Piura","Trujillo"],
+        "cine":["Cineplus Caminos del Inca", "Cineplus Canto Grande", "Cineplus Guardia Civil","Cineplus Chiclayo Mall Aventura","Cineplus Chiclayo Real Plaza", "Cineplus Arequipa Mall Plaza", "Cineplus Arequipa Paseo Central","Cineplus Cuzco","Cineplus Piura","Cineplus Piura Real Plaza","Cineplus Trujillo Centro","Cineplus Trujillo Real Plaza"],
+        "genero":"Terror",
+        "estreno":false,
+        "cartelera":true,
+        "poster":"../assets/images/film-gemelosiniestro.jpg"
+    },
+    {
+        "nombre":"Igualita a mi",
+        "name":"Igualita a mí",
+        "ciudad":["Lima"],
+        "cine":["Cineplus Canto Grande", "Cineplus Guardia Civil"],
+        "genero":"Comedia",
+        "estreno":false,
+        "cartelera":true,
+        "poster":"../assets/images/film-igualitaami.jpg"
+    },
+    {
+        "nombre":"Jurassic World: Dominio",
+        "name":"Jurassic World: Dominion",
+        "ciudad":["Lima","Arequipa","Chiclayo","Cuzco","Piura","Trujillo"],
+        "cine":["Cineplus Caminos del Inca", "Cineplus Canto Grande", "Cineplus Guardia Civil","Cineplus Chiclayo Mall Aventura","Cineplus Chiclayo Real Plaza", "Cineplus Arequipa Mall Plaza", "Cineplus Arequipa Paseo Central","Cineplus Cuzco","Cineplus Piura","Cineplus Piura Real Plaza","Cineplus Trujillo Centro","Cineplus Trujillo Real Plaza"],
+        "genero":"Accion",
+        "estreno":false,
+        "cartelera":true,
+        "poster":"../assets/images/film-jurassicworld.jpg"
+    },
+    {
+        "nombre":"Lightyear",
+        "name":"Lightyear",
+        "ciudad":["Lima","Arequipa","Chiclayo","Cuzco","Piura","Trujillo"],
+        "cine":["Cineplus Caminos del Inca", "Cineplus Canto Grande", "Cineplus Guardia Civil","Cineplus Chiclayo Mall Aventura","Cineplus Chiclayo Real Plaza", "Cineplus Arequipa Mall Plaza", "Cineplus Arequipa Paseo Central","Cineplus Cuzco","Cineplus Piura","Cineplus Piura Real Plaza","Cineplus Trujillo Centro","Cineplus Trujillo Real Plaza"],
+        "genero":"Familiar",
+        "estreno":false,
+        "cartelera":true,
+        "poster":"../assets/images/film-lightyear.jpg"
+    },
+    {
+        "nombre":"Todo en todas partes al mismo tiempo",
+        "name":"Everything Everywhere All at Once",
+        "ciudad":["Lima","Chiclayo","Cuzco","Piura","Trujillo"],
+        "cine":["Cineplus Caminos del Inca", "Cineplus Canto Grande", "Cineplus Guardia Civil","Cineplus Chiclayo Mall Aventura","Cineplus Chiclayo Real Plaza","Cineplus Cuzco","Cineplus Piura","Cineplus Piura Real Plaza","Cineplus Trujillo Centro","Cineplus Trujillo Real Plaza"],
+        "genero":"Ciencia Ficcion",
+        "estreno":false,
+        "cartelera":true,
+        "poster":"../assets/images/film-todosentodaspartes.jpg"
+    },
+    {
+        "nombre":"Top Gun Maverick",
+        "name":"Top Gun Maverick",
+        "ciudad":["Lima","Arequipa"],
+        "cine":["Cineplus Caminos del Inca", "Cineplus Canto Grande", "Cineplus Guardia Civil","Cineplus Arequipa Mall Plaza", "Cineplus Arequipa Paseo Central"],
+        "genero":"Accion",
+        "estreno":false,
+        "cartelera":true,
+        "poster":"../assets/images/film-topgun.jpg"
+    },
+    {
+        "nombre":"Thor: Amor Y Trueno",
+        "name":"Thor: Love and Thunder",
+        "ciudad":["Lima","Arequipa","Chiclayo","Cuzco","Piura","Trujillo"],
+        "cine":["Cineplus Caminos del Inca", "Cineplus Canto Grande", "Cineplus Guardia Civil","Cineplus Chiclayo Mall Aventura","Cineplus Chiclayo Real Plaza", "Cineplus Arequipa Mall Plaza", "Cineplus Arequipa Paseo Central","Cineplus Cuzco","Cineplus Piura","Cineplus Piura Real Plaza","Cineplus Trujillo Centro","Cineplus Trujillo Real Plaza"],
+        "genero":"Accion",
+        "estreno":true,
+        "cartelera":false,
+        "poster":"../assets/images/film-thor.jpg"
+    },
+    {
+        "nombre":"El Perro Samurai La Leyenda de Kakamucho",
+        "name":"Paws of Fury: The Legend of Hank",
+        "ciudad":[""],
+        "cine":[""],
+        "genero":"Animacion",
+        "estreno":true,
+        "cartelera":false,
+        "poster":"../assets/images/film-perrosamurai.jpg"
+    },
+    {
+        "nombre":"El Teléfono Negro",
+        "name":"The Black Phone",
+        "ciudad":[""],
+        "cine":[""],
+        "genero":"Terror",
+        "estreno":true,
+        "cartelera":false,
+        "poster":"../assets/images/film-telefononegro.jpg"
+    },
+    {
+        "nombre":"Jack en la Caja Maldita 2",
+        "name":"The Jack in the Box: Awakening",
+        "ciudad":[""],
+        "cine":[""],
+        "genero":"Terror",
+        "estreno":true,
+        "cartelera":false,
+        "poster":"../assets/images/film-jack.jpg"
+    },
+    {
+        "nombre":"La Restauración",
+        "name":"La Restauración",
+        "ciudad":[""],
+        "cine":[""],
+        "genero":"Comedia",
+        "estreno":true,
+        "cartelera":false,
+        "poster":"../assets/images/film-restauracion.jpg"
+    },
+    {
+        "nombre":"Black Adam",
+        "name":"Black Adam",
+        "ciudad":[""],
+        "cine":[""],
+        "genero":"Accion",
+        "estreno":true,
+        "cartelera":false,
+        "poster":"../assets/images/film-blackadam.jpg"
+    }
+]

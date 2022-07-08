@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cineplus - Contacto</title>
+    <link rel="stylesheet" href="./styles/styles.css">
+    <script src="./scripts/contacto.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</head>
+<body class="contacto-body">
+    <header>
+        <div class="navegador">
+            <div class="logo">
+                <img src="./assets/icons/logo.png" alt="logo de Cineplus">
+                <span>CINEPLUS</span>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="./index.html">Inicio</a></li>
+                    <li><a href="./">Películas</a></li>
+                    <li><a href="./cines.html">Cines</a></li>
+                    <li><a href="./contacto.html">Contáctenos</a></li>
+                </ul>
+            </nav>
+            <div class="busqueda">
+                <img src="./assets/icons/search-icon.svg" alt="icono de busqueda">
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="contacto-titulo">
+            <h2>CONTÁCTANOS</h2>
+        </div>
+        <form id="form">
+            <div class="input">
+                <label for="nombre">Nombre</label>
+                <input type="text" id="nombre">
+            </div>
+            <div class="input">
+                <label for="apellido">Apellidos</label>
+                <input type="text" id="apellido">
+            </div>
+            <div class="input">
+                <label for="dni">DNI</label>
+                <input type="text" id="dni">
+            </div>
+            <div class="input">
+                <label for="tel">Teléfono de contacto</label>
+                <input type="tel" id="tel">
+            </div>
+            <div class="input">
+                <label for="email">Correo electrónico</label>
+                <input type="email" id="email">
+            </div>
+            <div class="input">
+                <label for="motivo">Motivo</label>
+                <select id="motivo">
+                    <option></option>
+                    <option>Compras online</option>
+                    <option>Incidencias en el cine</option>
+                    <option>Venta corporativa</option>
+                    <option>Otro motivo</option>
+                </select>
+            </div>
+            <div class="input">
+                <label for="mensaje">Mensaje</label>
+                <textarea id="mensaje" cols="30" rows="10"></textarea>
+            </div>
+            <div class="submit">
+                <input class="submit" type="submit" value="Enviar">
+            </div>
+        </form>
+    </main>
+
+    <footer>
+        <p>Diseñado y desarrollado por Fredy Rodrigo</p>
+    </footer>
+</body>
+</html>

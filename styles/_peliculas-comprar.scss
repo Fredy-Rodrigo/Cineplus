@@ -1,0 +1,382 @@
+.peliculas-body {
+    background-color: $color-dark;
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: relative;
+    min-height: 100vh;
+    padding-bottom: 55px;
+    header {
+        .navegador {
+            
+            background: none;
+            background-color: $color-dark;
+        }
+    }
+    main {
+        .seccion-peliculas {
+            width: 80%;
+            margin: auto;
+            color: white;
+            display: flex;
+            flex-wrap: wrap;
+            h1 {
+                width: 100%;
+                margin: map-get($titulos, margen);
+                text-align: map-get($titulos, centro);
+                font-size: map-get($titulos, tamanio-h1);
+                color: map-get($titulos, color);
+            }
+
+            .seccion-elegir-horario {
+                width: 100%;
+                display: flex;
+                .descripcion {
+                    width: 30%;
+                    border-right: 1px solid $color-dark-grey;
+                    h4 {
+                        margin-bottom: 0;
+                    }
+                    img {
+                        width:200px;
+                    }
+                    .informacion {
+                        display: flex;
+                        flex-wrap: wrap;
+                        .info-tipo {
+                            width: 50%;
+                            h5 {
+                                font-size: 15px;
+                                margin: 30px 0 10px 0;
+                            }
+                            p {
+                                font-size: 14px;
+                                padding-right: 20px;
+                                margin: 0;
+                            }
+                        }
+                    }
+                }
+                .locales-direcciones-horarios {
+                    width: 70%;
+                    padding: 0 40px;
+                    h2 {
+                        font-size: 40px;
+                        margin-top: 0;
+                    }
+                    .local-horario-container {
+                        div {
+                            .local-horario {
+                                padding-bottom: 20px;
+                                padding-left: 10px;
+                                border-bottom: 1px solid $color-dark-grey;
+                                h4 {
+                                    margin-bottom: 0;
+                                }
+                                p {
+                                    margin: 10px 0;
+                                }
+                                .horario {
+                                    display: flex;
+                                    gap: 10px;
+                                    span {
+                                        font-size: 14px;
+                                        border: 1px solid $color-dark-grey;
+                                        padding: 2px 10px;
+                                        border-radius: 20px;
+                                        cursor: pointer;
+                                    }
+                                    span:hover {
+                                        background-color: $color-dark-grey;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+            .seccion-venta-tickets {
+                display: none;
+                width: 70%;
+                height: (100vh)/1.2;
+                margin-top: 20px;
+                .opciones {
+                    width: 25%;
+                    padding-top: 20px;
+                    border-right: 1px solid $color-dark-grey;
+                    position: relative;
+                    .linea {
+                        position: absolute;
+                        width: 25px;
+                        height: 70%;
+                        border-right: 1px solid $color-dark-grey;
+                    }
+                    .opcion {
+                        display: flex;
+                        height: 33%;
+                        div {
+                            width: 50px;
+                            height: 50px;
+                            border-radius: 50%;
+                            position: relative;
+                            background-color: $primary-color;
+                            @extend %centrar;
+                            img {
+                                width: 30px;
+                                position: absolute;
+                            }
+                        }
+                        p {
+                            padding-left: 20px;
+                        }
+                    }
+                    .butacas {
+                        div {
+                            background-color: $color-dark-grey;
+                        }
+                    }
+                    .pagos {
+                        div {
+                            background-color: $color-dark-grey;
+                        }
+                    }
+                }
+                .ventana-tarifas {
+                    width: 75%;
+                    padding: 0 30px;
+                    margin-top: 30px;
+                    h2 {
+                        font-size: 35px;
+                    }
+                    .tarifa {
+                        display: flex;
+                        padding: 10px 0;
+                        border-bottom: 1px solid $color-dark-grey;
+                        .tipo {
+                            width: 50%;
+                            padding: 5px 0;
+                        }
+                        .precio {
+                            width: 20%;
+                            padding: 5px 0;
+                        }
+                        .cantidad {
+                            width: 30%;
+                            display: flex;
+                            padding: 5px 0;
+                            input {
+                                width: 50px;
+                                border: none;
+                            }
+                            input[type="number"] {
+                                -moz-appearance: textfield;
+                                text-align: center;
+                                font-size: 16px;
+                                border: none;
+                                background-color: $color-dark-grey;
+                                color: white;
+                            }
+                            input::-webkit-inner-spin-button, input::-webkit-outer-spin-button {
+                                -webkit-appearance: none;
+                                margin: 0;
+                            }
+                            .menos {
+                                border-radius: 50% 0 0 50%;
+                            }
+                            button {
+                                width: 25px;
+                                height: 25px;
+                                border: none;
+                                font-size: 20px;
+                                color: $color-dark-secondary;
+                                cursor: pointer;
+                                @extend %centrar;
+                            }
+                            button:hover {
+                                background-color: $primary-color;
+                                color: white;
+                            }
+                            .mas {
+                                border-radius: 0 50% 50% 0;
+                            }
+                        }
+                    }
+                }
+                .ventana-butacas {
+                    display: none;
+                    width: 75%;
+                    padding: 0 30px;
+                    margin-top: 30px;
+                    box-sizing: border-box;
+                    h2 {
+                        font-size: 35px;
+                    }
+                    .sala {
+                        display: grid;
+                        grid-template-columns: repeat(7, 1fr)
+                        ;
+                        grid-template-rows: repeat(15, 1fr);
+                        justify-items: center;
+                        align-items: center;
+                        row-gap: 5px;
+                        .butaca {
+                            width: 40px;
+                            height: 30px;
+                            background-color: $color-dark-grey;
+                            @extend %centrar;
+                            cursor: pointer;
+                            img {
+                                width: 30px;
+                            }
+                        }
+                        .butaca:hover {
+                            background-color: rgb(128, 128, 128);
+                        }
+
+                    }
+                }
+                .ventana-pago {
+                    display: none;
+                    z-index: 10;
+                    position: fixed;
+                    top: 0;
+                    left: 0;
+                    width: 100%;
+                    height: 100%;
+                    background-color: rgba(0, 0, 0, 0.5);
+                    @extend %centrar;
+                    .pago-lightbox {
+                        width: 800px;
+                        padding: 40px 50px;
+                        box-sizing: border-box;
+                        background-color: $color-dark-secondary;
+                        display: flex;
+                        flex-wrap: wrap;
+                        border-radius: 15px;
+                        h4 {
+                            width: 100%;
+                            font-size: 20px;
+                            margin: 0;
+                        }
+                        p {
+                            width: 100%;
+                            margin-bottom: 30px;
+                        }
+                        .confirmacion-imagen {
+                            width: 50%;
+                        }
+                        .confirmacion-datos {
+                            width: 50%;
+                            .conf-titulo {
+                                margin-top: 0;
+                                font-size: 30px;
+                            }
+                            .conf-local {
+                                font-weight: bold;
+                                margin-bottom: 0;
+                            }
+                            .conf-direccion {
+                                color: #b4b4b4;
+                                margin-top: 0;
+                            }
+                            .conf-hora {
+                                color: #b4b4b4;
+                            }
+                            .conf-precio-texto {
+                                font-weight: bold;
+                                color: $primary-color;
+                                font-size: 20px;
+                                margin-bottom: 0;
+                            }
+                            .conf-entradas-text, .conf-butacas-text {
+                                margin-bottom: 0;
+                            }
+                            .conf-entradas {
+                                color: #b4b4b4;
+                            }
+                            .conf-butacas {
+                                color: #b4b4b4;
+                            }
+                            .conf-precio {
+                                margin-top: 0;
+                                font-size: 30px;
+                            }
+                            button {
+                                @extend %boton-normal;
+                            }
+                        }
+                    }
+                }
+            }
+
+            .seccion-detalles-compra {
+                display: none;
+                width: 30%;
+                border-left: 1px solid $color-dark-grey;
+                box-sizing: border-box;
+                padding-left: 30px;
+                margin-top: 20px;
+                .detalles-compra {
+                    border-bottom: 1px solid $color-dark-grey;
+                    img {
+                        width: 150px;
+                    }
+                    .detalles-local {
+                        font-weight: bold;
+                        font-size: 20px;
+                        margin-bottom: 0;
+                    }
+                    .detalles-direccion {
+                        margin: 0;
+                        color: rgb(180, 180, 180);
+                    }
+                    p {
+                        .detalles-hora {
+                            color: rgb(180, 180, 180);
+                        }
+                    }
+                }
+                .detalles-cantidad {
+                    border-bottom: 1px solid $color-dark-grey;
+                    p {
+                        color: rgb(180, 180, 180);
+                    }
+                    p:first-child {
+                         color: white;
+                    }
+                }
+                .detalles-butacas {
+                    display: none;
+                    div {
+                        display: inline;
+                        margin-right: 15px;
+                    }
+                }
+                .detalles-total {
+                    .total-texto {
+                        font-weight: bold;
+                        color: $primary-color;
+                        margin-bottom: 0;
+                    }
+                    .total-dinero {
+                        margin-top: 0;
+                        font-size: 30px;
+                    }
+                }
+                .boton-continuar {
+                    display: none;
+                    button {
+                        @extend %boton-normal;
+                        margin-bottom: 30px;
+                    }
+                }
+            }
+        }
+    }
+    footer {
+        width: 100%;
+        position: absolute;
+        bottom: 0;
+    }
+}

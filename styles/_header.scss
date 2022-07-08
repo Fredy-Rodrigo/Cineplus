@@ -1,0 +1,50 @@
+header {
+    .navegador {
+        @include flex(flex, space-around, center);
+        position: fixed;
+        width: 100%;
+        height: 70px;
+        z-index: 100;
+        border-bottom: 1px solid white;
+        color: white;
+        background: rgb(0,0,0);
+        background: linear-gradient(180deg, rgba(0,0,0,0.7231267507002801) 0%, rgba(0,0,0,0.11248249299719892) 100%);
+        .logo {
+            @extend %centrar;
+            img {
+                width: 55px;
+            }
+            span {
+                padding-left: 10px;
+            }
+        }
+        nav {
+            width: 500px;
+            ul {
+                margin: 0;
+                padding: 0;
+                @include flex(flex, space-between, center);
+                li {
+                    list-style: none;
+                    a {
+                        text-decoration: none;
+                        color: white;
+                    }
+                }
+            }
+        }
+        .busqueda {
+            img {
+                width: 20px;
+            }
+        }
+    }
+    .banner {
+        height: 390px;
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+}
