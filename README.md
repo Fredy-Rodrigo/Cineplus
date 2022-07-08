@@ -7,13 +7,14 @@ El proyecto consta de 4 archivos HTML, cada uno esta vinculado a un script JS pr
 - En el archivo **peliculas-comprar.html** vinculado a **peliculas-comprar.js** se muestra todo un procedimiento por el que debe pasar el usuario para poder comprar sus entradas, eligiendo el local del cine, el horario, la cantidad de entradas y las butacas. Aquí se hace uso de la API OMDb para una información mas detallada de las peliculas. 
 - En el archivo **cines.html** vinculado a **cines.js** se simula una busqueda de locales de cines con un filtro por ciudades, los datos usados aqui se crean por clases y objetos.
 - En el archivo **contacto.html** vinculado a **contacto.js** se simula un formulario que requiere datos obligatorios, una vez llenado, al hacer submit, los datos se quedan guardados para que cuando se recargue la página, estos aparezcan por defecto.
+
 #####OBSERVACIÓN
 Se usaron datos de diferentes grupos de peliculas para los archivos **peliculas.html** y **peliculas-comprar.html**, por lo que la peliculas entre uno y otro archivo no tienen relación. 
 
 ####TECNOLOGÍAS USADAS
- - HTML
- - CSS
- - JS
- - SASS
- - SWEETALERT2 (librería)
- - OMDB (Api)
+- HTML
+- CSS
+- JS
+- SASS
+- SWEETALERT2 (librería)
+- OMDB (Api)
