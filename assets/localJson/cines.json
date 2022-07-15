@@ -1,0 +1,128 @@
+[
+    {
+        "nombre":"Cineplus Alcazar",
+        "ciudad":"Lima",
+        "direccion":"Av. Santa Cruz 814-816",
+        "imagen":"../assets/images/local-lima-1.jpg"
+    },
+    {
+        "nombre":"Cineplus Brasil",
+        "ciudad":"Lima",
+        "direccion":"Av. Brasil 714 - 792 Piso 3",
+        "imagen":"../assets/images/local-lima-2.jpg"
+    },
+    {
+        "nombre":"Cineplus Caminos del Inca",
+        "ciudad":"Lima",
+        "direccion":"Av Caminos del Inca 241 Int401",
+        "imagen":"../assets/images/local-lima-3.jpg"
+    },
+    {
+        "nombre":"Cineplus Canto Grande",
+        "ciudad":"Lima",
+        "direccion":"Av Canto Grande MZ.A LT.15",
+        "imagen":"../assets/images/local-lima-4.jpg"
+    },
+    {
+        "nombre":"Cineplus Centro",
+        "ciudad":"Lima",
+        "direccion":"Jr. De la Unión 819",
+        "imagen":"../assets/images/local-lima-5.jpg"
+    },
+    {
+        "nombre":"Cineplus Centro Civico",
+        "ciudad":"Lima",
+        "direccion":"Av. Inca Garcilazo de la Vega",
+        "imagen":"../assets/images/local-lima-6.jpg"
+    },
+    {
+        "nombre":"Cineplus Comas",
+        "ciudad":"Lima",
+        "direccion":"Av. Túpac Amaru 3840 2do P",
+        "imagen":"../assets/images/local-lima-7.jpg"
+    },
+    {
+        "nombre":"Cineplus Guardia Civil",
+        "ciudad":"Lima",
+        "direccion":"Guardia Civil 1035 Chorrillos",
+        "imagen":"../assets/images/local-lima-8.jpg"
+    },
+    {
+        "nombre":"Cineplus La Molina",
+        "ciudad":"Lima",
+        "direccion":"Av. Raúl Ferrero 1205 3er P",
+        "imagen":"../assets/images/local-lima-9.jpg"
+    },
+    {
+        "nombre":"Cineplus Lurin",
+        "ciudad":"Lima",
+        "direccion":"S/N San Pedro Parcela B-43",
+        "imagen":"../assets/images/local-lima-10.jpg"
+    },
+    {
+        "nombre":"Cineplus Mall Plaza",
+        "ciudad":"Arequipa",
+        "direccion":"Av. Ejercito 793 Cayma",
+        "imagen":"../assets/images/local-arequipa-1.jpg"
+    },
+    {
+        "nombre":"Cineplus Paseo Central",
+        "ciudad":"Arequipa",
+        "direccion":"Av. Arturo Ibañez S/N",
+        "imagen":"../assets/images/local-arequipa-2.jpg"
+    },
+    {
+        "nombre":"Cineplus Arequipa Plaza",
+        "ciudad":"Arequipa",
+        "direccion":"Av. Ejercito 1009 Cayma",
+        "imagen":"../assets/images/local-arequipa-3.jpg"
+    },
+    {
+        "nombre":"Cineplus Cajamarca",
+        "ciudad":"Cajamarca",
+        "direccion":"Av. Vía de Evitamiento Norte",
+        "imagen":"../assets/images/local-cajamarca.jpg"
+    },
+    {
+        "nombre":"Cineplus Mall Aventura",
+        "ciudad":"Chiclayo",
+        "direccion":"Av. Panamericana 639 -Int 01",
+        "imagen":"../assets/images/local-chiclayo-1.jpg"
+    },
+    {
+        "nombre":"Cineplus Chiclayo Plaza",
+        "ciudad":"Chiclayo",
+        "direccion":"Av. Miguel de Cervantes 300",
+        "imagen":"../assets/images/local-chiclayo-2.jpg"
+    },
+    {
+        "nombre":"Cineplus Cuzco",
+        "ciudad":"Cuzco",
+        "direccion":"Av. Collasuyo 2964 Lote A",
+        "imagen":"../assets/images/local-cuzco.jpg"
+    },
+    {
+        "nombre":"Cineplus Piura",
+        "ciudad":"Piura",
+        "direccion":"Jr. Huancavelica 537 - Piura",
+        "imagen":"../assets/images/local-piura-1.jpg"
+    },
+    {
+        "nombre":"Cineplus Piura Real Plaza",
+        "ciudad":"Piura",
+        "direccion":"Av.Sanchez Cerro 234-Z.I",
+        "imagen":"../assets/images/local-piura-2.jpg"
+    },
+    {
+        "nombre":"Cineplus Trujillo Centro",
+        "ciudad":"Trujillo",
+        "direccion":"Calle Mariscal de Orbegoso 239",
+        "imagen":"../assets/images/local-trujillo-1.jpg"
+    },
+    {
+        "nombre":"Cineplus Trujillo Real Plaza",
+        "ciudad":"Trujillo",
+        "direccion":"Av. César Vallejo 1345",
+        "imagen":"../assets/images/local-trujillo-2.jpg"
+    }
+]
